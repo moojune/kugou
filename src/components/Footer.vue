@@ -1,26 +1,26 @@
 <template>
-    <div class="footer">
-        <div class="control-arrow"></div>
-        <div class="play-box">
-            <div class="photo">
-                <img src="../assets/images/default.png" alt="">
-            </div>
-            <div class="information">
-                <p class="infor-sing">王力宏 - 你不知道的事</p>
-                <p class="infor-author">王力宏</p>
-            </div>
-            <div class="control-box">
-                <div class="pause">
-                    <img src="../assets/images/pause_icon.png" alt="">
-                </div>
-                <div class="next">
-                    <img src="../assets/images/next_icon.png" alt="">
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
+  <div class="footer">
+    <div class="control-arrow"></div>
+    <div class="play-box">
+      <div class="photo">
+        <img src="../assets/images/default.png" alt="">
+      </div>
+      <div class="information">
+        <p class="infor-sing">王力宏 - 你不知道的事</p>
+        <p class="infor-author">王力宏</p>
+      </div>
+      <div class="control-box">
+        <div class="pause">
+          <img src="../assets/images/pause_icon.png" alt="">
         </div>
+        <div class="next">
+          <img src="../assets/images/next_icon.png" alt="">
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -82,6 +82,7 @@ export default {
   float: left;
   margin-left: 10px;
   margin-top: 8px;
+  display: none;
 }
 .infor-sing {
   color: #fff;

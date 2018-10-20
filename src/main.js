@@ -3,21 +3,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-
-// import Swiper from 'swiper'
 import App from './App'
 import NewSong from './components/NewSong'
 import Rank from './components/Rank'
 import Singer from './components/Singer'
 import SongList from './components/SongList'
 import './assets/css/common.css'
-// import '../../kugou-app/node_modules/swiper/dist/css/swiper.css'
-
+import '../../kugou-app/node_modules/swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueResource)
-Vue.use(Swiper)
 
 /* eslint-disable no-new */
 const routes = [
